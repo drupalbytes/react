@@ -13,16 +13,16 @@ const Footer = () => {
           
           {/* Social Icons */}
           <div className="flex gap-6 mb-6 md:mb-0">
-             <a href="#" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
+             <a href="https://github.com/drupalbytes" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
                <BsGithub size={20}/>
              </a>
-             <a href="#" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
+             <a href="https://in.linkedin.com/in/ranjan07" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
                <BsLinkedin size={20}/>
              </a>
-             <a href="#" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
+             <a href="https://www.instagram.com/smithranjan07_official" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
                <BsInstagram size={20}/>
              </a>
-             <a href="#" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
+             <a href="https://www.youtube.com/@smithranjan07" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
                <BsYoutube size={20}/>
              </a>
           </div>
