@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #13131f;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Custom Swiper Styles for the purple dots */
+.swiper-pagination-bullet { background: #8b5cf6 !important; }
