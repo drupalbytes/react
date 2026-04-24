@@ -2,7 +2,7 @@ import { BsChevronRight } from 'react-icons/bs';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative w-full min-h-[65vh] flex items-center pt-20">
+    <section id="home" className="relative w-full min-h-[100vh] flex items-center pt-20">
       
       {/* Background Image, Gradient Overlay, and Angled Cut */}
       {/* The clip-path creates that diagonal slant at the bottom */}
