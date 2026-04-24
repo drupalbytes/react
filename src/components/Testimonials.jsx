@@ -6,7 +6,7 @@ const testimonials = [
     id: 1,
     name: "Sarah J.",
     role: "Founder, TechFlow",
-    content: "John is an absolute professional. He took our complex requirements and turned them into a seamless, high-performing web application.",
+    content: "Smith is an absolute professional. He took our complex requirements and turned them into a seamless, high-performing web application.",
     avatar: "https://randomuser.me/api/portraits/women/1.jpg",
     rating: 5
   },
@@ -14,11 +14,50 @@ const testimonials = [
     id: 2,
     name: "Mike C.",
     role: "CTO, NextGen Systems",
-    content: "His expertise in React and Node.js helped us scale our platform 3x faster than expected. Highly recommended for any serious project.",
+    content: "His expertise in React helped us scale our platform 3x faster than expected. Highly recommended for any serious project.",
     avatar: "https://randomuser.me/api/portraits/men/2.jpg",
     rating: 5
   },
-  // Add more testimonials as needed
+  {
+    id: 3,
+    name: "Amanda R.",
+    role: "Digital Director, BrightSpark Agency",
+    content: "Smith migrated our entire legacy site to Drupal flawlessly. The performance improvements were immediate and the content team loves the new admin experience.",
+    avatar: "https://randomuser.me/api/portraits/women/3.jpg",
+    rating: 5
+  },
+  {
+    id: 4,
+    name: "David L.",
+    role: "CEO, CreativeHub",
+    content: "We needed a complex WordPress multisite setup and Smith delivered beyond expectations. Clean code, great documentation, and zero downtime during launch.",
+    avatar: "https://randomuser.me/api/portraits/men/4.jpg",
+    rating: 5
+  },
+  {
+    id: 5,
+    name: "Priya M.",
+    role: "Product Manager, StudioX",
+    content: "Smith set up our Sanity CMS and built a fully custom studio experience for our editors. The structured content approach has transformed how our team works.",
+    avatar: "https://randomuser.me/api/portraits/women/5.jpg",
+    rating: 5
+  },
+  {
+    id: 6,
+    name: "Chris B.",
+    role: "CTO, LaunchPad Inc.",
+    content: "Smith built our entire backend API with Strapi in record time. The flexibility of the content types and role-based permissions saved us months of custom development.",
+    avatar: "https://randomuser.me/api/portraits/men/6.jpg",
+    rating: 5
+  },
+  {
+    id: 7,
+    name: "Lisa T.",
+    role: "Founder, GrowthLoop",
+    content: "Our MERN stack application went from concept to production in just 6 weeks. Smith's full-stack expertise meant seamless communication between frontend and backend throughout.",
+    avatar: "https://randomuser.me/api/portraits/women/7.jpg",
+    rating: 5
+  }
 ];
 
 const Testimonials = () => {

@@ -29,6 +29,18 @@ const projects = [
     img: '/project4.png',
     link: 'https://www.hybridbattery911.com/'
   },
+    { 
+    title: 'law for Non-profits', 
+    category: 'Compliance & Governance Guidance', 
+    img: '/project5.png',
+    link: 'https://lawfornonprofits.ca/'
+  },
+    { 
+    title: 'Cloudwave Inc.', 
+    category: 'Cloud Computing & Cloud Consulting', 
+    img: '/project6.png',
+    link: 'https://cloudwaveinc.com/'
+  },
 ];
 
 const Portfolio = () => {

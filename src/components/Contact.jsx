@@ -5,8 +5,8 @@ import {
   BsGeoAltFill,
   BsChevronRight,
   BsGithub,
-  BsBehance,
-  BsDribbble,
+  BsLinkedin,
+  BsInstagram,
 } from "react-icons/bs";
 
 const Contact = () => {
@@ -71,9 +71,9 @@ const Contact = () => {
               <div className="pt-4">
                 <p className="text-sm text-gray-400 mb-4 font-semibold uppercase tracking-wider">Find Me On</p>
                 <div className="flex gap-4">
-                  <a href="#" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsGithub size={20} /></a>
-                  <a href="#" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsBehance size={20} /></a>
-                  <a href="#" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsDribbble size={20} /></a>
+                  <a href="https://github.com/drupalbytes" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsGithub size={20} /></a>
+                  <a href="https://in.linkedin.com/in/ranjan07" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsLinkedin size={20}/></a>
+                  <a href="https://www.instagram.com/smithranjan07_official" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsInstagram size={20}/></a>
                 </div>
               </div>
             </div>

@@ -3,15 +3,21 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { BsFiletypeHtml, BsFiletypeCss, BsBraces, BsCodeSlash } from 'react-icons/bs';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaReact, FaWordpress, FaDrupal, FaPhp } from 'react-icons/fa';
+import { SiMysql, SiSanity, SiStrapi } from 'react-icons/si';
 
 const skillsData = [
+  { name: 'Drupal', icon: <FaDrupal size={40} className="text-blue-700" /> },
   { name: 'HTML', icon: <BsFiletypeHtml size={40} className="text-orange-500" /> },
   { name: 'CSS', icon: <BsFiletypeCss size={40} className="text-blue-500" /> },
   { name: 'JavaScript', icon: <BsBraces size={40} className="text-yellow-400" /> },
+  { name: 'Sanity', icon: <SiSanity size={40} className="text-red-500" /> },
   { name: 'React', icon: <FaReact size={40} className="text-cyan-400" /> },
-  { name: 'Node.js', icon: <FaNodeJs size={40} className="text-green-500" /> },
-  { name: 'Tailwind', icon: <BsCodeSlash size={40} className="text-teal-400" /> },
+  { name: 'Tailwind', icon: <BsCodeSlash size={40} className="text-teal-400" /> },  
+  { name: 'WordPress', icon: <FaWordpress size={40} className="text-blue-600" /> },
+  { name: 'PHP', icon: <FaPhp size={40} className="text-indigo-500" /> },
+  { name: 'MySQL', icon: <SiMysql size={40} className="text-blue-400" /> },  
+  { name: 'Strapi', icon: <SiStrapi size={40} className="text-purple-500" /> },
 ];
 
 const Skills = () => {
