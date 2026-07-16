@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-6">
                 <BsGeoAltFill className="text-purple-400 text-xl shrink-0" />
-                <p className="text-gray-300 font-medium border-l-2 border-white/20 pl-6">New Delhi, India</p>
+                <p className="text-gray-300 font-medium border-l-2 border-white/20 pl-6">Bhutani Avenue, Sector-62, Noida UP, India</p>
               </div>
             </div>
 
@@ -73,7 +73,7 @@ const Contact = () => {
                 <div className="flex gap-4">
                   <a href="https://github.com/drupalbytes" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsGithub size={20} /></a>
                   <a href="https://in.linkedin.com/in/ranjan07" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsLinkedin size={20}/></a>
-                  <a href="https://www.instagram.com/smithranjan07_official" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsInstagram size={20}/></a>
+                  <a href="https://www.instagram.com/smithranjan07" target="_blank" className="p-3 bg-[#0f0c29] rounded-xl hover:bg-purple-600 transition-all border border-white/10"><BsInstagram size={20}/></a>
                 </div>
               </div>
             </div>

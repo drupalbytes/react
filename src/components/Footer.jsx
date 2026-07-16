@@ -19,7 +19,7 @@ const Footer = () => {
              <a href="https://in.linkedin.com/in/ranjan07" target="_blank" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
                <BsLinkedin size={20}/>
              </a>
-             <a href="https://www.instagram.com/smithranjan07_official" target="_blank" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
+             <a href="https://www.instagram.com/smithranjan07" target="_blank" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
                <BsInstagram size={20}/>
              </a>
              <a href="https://www.youtube.com/@smithranjan07" target="_blank" className="text-gray-400 hover:text-white transition-colors transform hover:scale-110">

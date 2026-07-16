@@ -19,7 +19,7 @@ const About = () => {
           <div className="flex items-center gap-4 bg-cardBg p-4 rounded-lg flex-1">
             <BsPersonFill className="text-primary text-4xl" />
             <div>
-              <h4 className="text-2xl font-bold text-white">5+</h4>
+              <h4 className="text-2xl font-bold text-white">10+</h4>
               <p className="text-xs text-gray-400 uppercase">Years Experience</p>
             </div>
           </div>
