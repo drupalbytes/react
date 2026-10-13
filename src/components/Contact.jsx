@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-6">
                 <BsGeoAltFill className="text-purple-400 text-xl shrink-0" />
-                <p className="text-gray-300 font-medium border-l-2 border-white/20 pl-6">Bhutani Avenue, Sector-62, Noida UP, India</p>
+                <p className="text-gray-300 font-medium border-l-2 border-white/20 pl-6">Jagat Apartment, Near Patna Zoo, Bihar, India</p>
               </div>
             </div>
 
