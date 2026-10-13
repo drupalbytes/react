@@ -6,41 +6,35 @@ import 'swiper/css/navigation';
 
 const projects = [
   { 
-    title: 'Stage and Screen', 
-    category: 'Corporate / B2B Travel Services', 
-    img: '/project1.png',
-    link: 'https://stageandscreen.travel/'
+    title: 'Smilemax Dental Clinic', 
+    category: 'Healthcare / Dental Care & Cosmetic Dentistry', 
+    img: '/smilemax.png',
+    link: 'https://thesmilemax.com/'
   },
   { 
-    title: 'Legal Rights For Youths', 
-    category: 'Educational / Legal Information Portal', 
-    img: '/project2.png',
-    link: 'https://legalrightsforyouth.ca/'
+    title: 'The Emerald Hotel & Banquets', 
+    category: 'Hospitality / Hotel & Event Banquets',
+    img: '/emerald.png', 
+    link: 'https://hotelemeraldmuzaffarpur.com/'
   },
   { 
-    title: 'Kids Familieschange', 
-    category: 'Educational / Child Support & Emotional Guidance', 
-    img: '/project3.png',
-    link: 'https://kids.familieschange.ca/'
+    title: 'Delve Delegates', 
+    category: 'Corporate Services / Executive Search & Legal Stamping',
+    img: '/delve.png', 
+    link: 'https://www.delvedelegates.com/'
   },
   { 
-    title: 'Hybrid Battery 911', 
-    category: 'Service-Based / Automotive Repair', 
-    img: '/project4.png',
-    link: 'https://www.hybridbattery911.com/'
+    title: 'Bone and Spine Clinic', 
+    category: 'Healthcare / Orthopedics & Spine Care',
+    img: '/bonespine.png', 
+    link: 'https://bonenspine.com/'
   },
-    { 
-    title: 'law for Non-profits', 
-    category: 'Compliance & Governance Guidance', 
-    img: '/project5.png',
-    link: 'https://lawfornonprofits.ca/'
-  },
-    { 
-    title: 'Cloudwave Inc.', 
-    category: 'Cloud Computing & Cloud Consulting', 
-    img: '/project6.png',
-    link: 'https://cloudwaveinc.com/'
-  },
+  { 
+    title: 'Zexana Pharma', 
+    category: 'Pharmaceutical / Manufacturing & Healthcare Solutions',
+    img: '/zexana.png',
+    link: 'https://zexanapharma.com/'
+  }
 ];
 
 const Portfolio = () => {
